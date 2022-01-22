@@ -71,10 +71,13 @@ def dealerplay():
 
     print("Dealer hand:")
     
-    print(f"{dealer_hand[0][0]}", end=" ")
+    print("|X|", end=" ")
+
 
     for card in range(1, len(dealer_hand)):
-       print("|X|", end=" ")
+       print(f"{dealer_hand[card][0]}", end=" ")
+
+
 
     print("")
 
